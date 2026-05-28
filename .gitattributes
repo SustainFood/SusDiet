@@ -1,3 +1,6 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+*.xls filter=lfs diff=lfs merge=lfs -text
 /Data/process/all_ingredients_with_weight_enriched.csv filter=lfs diff=lfs merge=lfs -text
 /Data/SusDiet/all_ingredients.csv filter=lfs diff=lfs merge=lfs -text
 /Data/process/all_ingredients_merged.csv filter=lfs diff=lfs merge=lfs -text
